@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e6f3;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    left: 0;
+    top: 0;
+}
+ul{ 
+    list-style-type:none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    color: black;  
+    font-size: 20px;
+    font-weight: 500;
+}
+li a:hover{
+    color: #088178;
+}
+.active{
+   color: #088178;
+  
+}
+h1{
+    color: #088178;
+    font-size: 30px;
+}
+.main{
+    background-image: url("https://images.yourstory.com/cs/2/f02aced0d86311e98e0865c1f0fe59a2/online-buying-1625209658854.png?w=752&fm=auto&ar=2:1&mode=crop&crop=faces");
+    height: 90vh;
+    width: auto;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
